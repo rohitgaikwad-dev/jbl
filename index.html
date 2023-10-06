@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
     <title>JBL</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css"
-        integrity="sha512-UV9ujyMxyYubOSkCa8+OGzknJ1EilA19WPimPseyMcZaGIoO8l7iNphD0Mq/0R/lNkzBH70ai3tmurxAW0M2ww=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css"
+        integrity="sha512-N2IsWuKsBYYiHNYdaEuK4eaRJ0onfUG+cdZilndYaMEhUGQq/McsFU75q3N+jbJUNXm6O+K52DRrK+bSpBGj0w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -21,7 +21,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link">Home</a>
+                        <a href="#home" class="nav_link active-link">Home</a>
                     </li>
                     <li class="nav_item">
                         <a href="#about" class="nav_link">About</a>
@@ -174,7 +174,7 @@
             </div>
         </section>
 
-        <section class="sponsor section">
+        <section class="sponsor section" id="sponsor">
             <div class="sponsor_container container grid">
                 <img src="Assets/sponsor-1.png" alt="img" class="sponsor_img">
                 <img src="Assets/sponsor-2.png" alt="img" class="sponsor_img">
@@ -236,7 +236,7 @@
                 </div>
 
                 <div class="footer_group">
-                    <form action="" class="footer_input">
+                    <form class="footer_form">
                         <input type="email" placeholder="Email" class="footer_input">
                         <button class="footer_button button">
                             Subscribe <i class="ri-send-plane-fill"></i>
@@ -265,12 +265,22 @@
         </span>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.0.0/scrollReveal.min.js"
-        integrity="sha512-L56hqljAjZhvB9f32klSO2ltXUlKbaOY2KdlNLOdzxJtl0jNvNQFKTP3u0MIFUP3mXTzYdy7KCaUSvi7QBWxNg=="
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-fill"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"
-        integrity="sha512-2w85qGM9apXW9EgevsY4S4fnJIUz6U6mXlLbgDKphBuwh7jPQNad70Ll5W+pcIrJ6rIMGpjP0CxYGQwKsynIaQ=="
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"
+        integrity="sha512-h5Vv+n+z0eRnlJoUlWMZ4PLQv4JfaCVtgU9TtRjNYuNltS5QCqi4D4eZn4UkzZZuG2p4VBz3YIlsB7A2NVrbww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="main.js"></script>
 </body>
 
